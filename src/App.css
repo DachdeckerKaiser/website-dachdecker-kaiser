@@ -207,7 +207,7 @@ p{
 
 @media screen and (max-width: 768px) {
   .heroSection {
-    height: 120vh;
+    height: 116vh;
     width: 100vw;
     flex-direction: column;
     justify-content: center;
@@ -290,6 +290,10 @@ p{
     margin-top: 5rem;
     margin-bottom: 5rem;
     box-sizing: border-box;
+  }
+
+  .qrCodeTitle {
+    width: 90%
   }
 
   .secondRight {
