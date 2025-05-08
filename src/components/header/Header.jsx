@@ -1,5 +1,5 @@
 import "./header.css";
-import logo from "../../logo_dachdecker_kaiser_white_transparent.png";
+import logo from "../../logo_x0_3.png";
 
 function Header() {
     return(

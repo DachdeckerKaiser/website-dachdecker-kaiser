@@ -1,5 +1,5 @@
 import "./footer.css";
-import logo from "../../logo_dachdecker_kaiser_white_transparent.png";
+import logo from "../../logo_x0_5.png";
 
 function Footer() {
     return(
@@ -22,7 +22,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footerBottom">
-                <span>Designed and Developed by <a href="http://www.flowefy.de" target="_blank" className="flowefy">flowefy.</a></span>
+                <span>Designed and Developed by <a href="http://www.flowefy.de" target="_blank" className="flowefy" rel="noreferrer">flowefy.</a></span>
             </div>
         </footer>
     )
