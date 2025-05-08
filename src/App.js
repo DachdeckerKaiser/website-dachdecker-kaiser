@@ -7,6 +7,10 @@ import Footer from './components/footer/Footer';
 
 
 function App() {
+  function openCalendly() {
+    window.location.href = "https://calendly.com/e-kaiser-dachdecker-kaiser/30min";
+  }
+
   return (
     <div className="App">
       <Header />
@@ -43,7 +47,7 @@ function App() {
               </p>
 
               <h2 className="secondaryTitle"> Termin direkt online buchen</h2>
-              <button type="button" className="appointmentButton">
+              <button type="button" onClick={openCalendly} className="appointmentButton">
                 <i className="bi bi-calendar"></i>
                 Jetzt Buchen
               </button>
