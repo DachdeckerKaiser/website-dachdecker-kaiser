@@ -25,7 +25,6 @@ main {
   justify-content: center;
   flex-direction: row;
   z-index: 5000;
-  background-image: url("./roof.png");
   background-size: cover;
   background-position: center;
 }
@@ -71,9 +70,9 @@ h2 {
   position: relative;
   margin-left: 5rem;
   margin-top: .5rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
-  color:rgb(80, 0, 0);
+  color:rgb(52, 0, 0);
 }
 
 p{
@@ -88,9 +87,40 @@ p{
   width: 40rem;
 }
 
-.roofImage {
+.downBanner {
   position: absolute;
-  height: calc(100vh - 5rem);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;  
+  gap: -.5rem;
+  align-items: center;
+
+}
+
+.downIcon {
+  position: relative;
+  color: white;
+}
+
+.icon-1 {
+  animation: down 3s ease-in-out infinite;
+}
+.icon-2 {
+  animation: down 3s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+.icon-3 {
+  animation: down 3s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+@keyframes down {
+  50% {
+    transform: translateY(0.3rem);
+  }
 }
 
 .secondSection {
@@ -126,7 +156,7 @@ p{
   margin-top: 5rem;
   font-size: 2rem;
   font-weight: 900;
-  color:rgb(8, 16, 78);
+  color: rgb(225, 110, 110);
 }
 
 .appointmentButton {
@@ -172,7 +202,8 @@ p{
 
 @media screen and (max-width: 768px) {
   .heroSection {
-    height: 120vh !important;
+    min-height: 92vh;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;  
@@ -185,6 +216,7 @@ p{
   .heroLeft {
     width: 100vw;
     display: flex;
+    gap: .5rem;
     margin-left: 0;
     flex-direction: column;
     align-items: center;
@@ -252,6 +284,7 @@ p{
     padding: 2rem 0;
     margin-left: 0;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     box-sizing: border-box;
   }
 

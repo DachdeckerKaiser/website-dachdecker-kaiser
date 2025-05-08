@@ -21,6 +21,17 @@ function App() {
             </div>
             <div className="heroRight">
             </div>
+            <div className="downBanner">
+              <span className="downIcon icon-1">
+                <i className="bi bi-chevron-down"></i>
+              </span>
+              <span className="downIcon icon-2">
+                <i className="bi bi-chevron-down"></i>
+              </span>
+              <span className="downIcon icon-3">
+                <i className="bi bi-chevron-down"></i>
+              </span>
+            </div>
           </div>
           <div className="secondSection">
             <div className="secondLeft">
@@ -31,7 +42,10 @@ function App() {
               </p>
 
               <h2 className="secondaryTitle"> Termin direkt online buchen</h2>
-              <button type="button" className="appointmentButton">Buchen</button>
+              <button type="button" className="appointmentButton">
+                <i className="bi bi-calendar"></i>
+                Jetzt Buchen
+              </button>
             </div>
             <div className="secondRight">
               <div className="qrCodeBox">
