@@ -1,7 +1,7 @@
 .App {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   overflow: hidden;
   background-color: var(--primary);
 }
@@ -127,7 +127,7 @@ p{
 .secondSection {
   padding-top: 6rem;
   width: 100%;
-  height: calc(100vh - 5rem);
+  height: calc(100vh + 6rem);
   background-color: white;
   display: flex;
 }
@@ -207,15 +207,15 @@ p{
 
 @media screen and (max-width: 768px) {
   .heroSection {
-    min-height: 92vh;
-    height: auto;
+    height: 120vh;
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;  
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
-
+    overflow: hidden;
   }
 
   .heroLeft {
@@ -246,13 +246,12 @@ p{
     font-size: 1.2em;
     margin-top: 1rem;
     margin-left: 0;
-    text-align: justify; 
   }
 
   .secondSection {
     flex-direction: column;
     align-items: center;
-    height: auto;
+    height: calc(100vh + 42rem);
     padding-top: 5rem;
     padding-bottom: 3rem;
   }
@@ -266,7 +265,6 @@ p{
   .secondDescription {
     width: 80%;
     margin-left: 10%;
-    text-align: justify;
   }
 
   .secondaryTitle {
