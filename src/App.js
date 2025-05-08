@@ -2,6 +2,7 @@ import "../node_modules/animate.css/animate.min.css"
 import qrcode from "./qrcode_calendly.png"
 import './App.css';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 
 
@@ -35,7 +36,7 @@ function App() {
           </div>
           <div className="secondSection">
             <div className="secondLeft">
-              <h1 className="secondTitle">🎯 Jetzt Neu!</h1>
+              <h1 className="secondTitle">Jetzt Neu!</h1>
               <p className="secondDescription">
                 Kostenfreie Dachbesichtigung für alle Markkleeberger!
                 Sichern Sie sich bis 31.05.2025 Ihre professionelle Dachprüfung mit ehrlicher Einschätzung und unverbindlicher Beratung – direkt bei Ihnen vor Ort.
@@ -54,6 +55,7 @@ function App() {
               </div>
             </div>
           </div>
+          <Footer/>
         </div>
       </main>
     </div>
