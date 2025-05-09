@@ -8,7 +8,7 @@ import Footer from '../components/footer/Footer';
 
 function Home() {
   function openCalendly() {
-    window.location.href = "https://calendly.com/e-kaiser-dachdecker-kaiser/30min";
+    window.location.href = "https://zeeg.me/ekaiser-dachdecker";
   }
 
   return (
