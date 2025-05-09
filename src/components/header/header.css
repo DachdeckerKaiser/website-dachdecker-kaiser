@@ -3,6 +3,7 @@
     height: 5.5rem;
     display: fley;
     align-items: center;
+    background-color: var(--primary);
 }
 
 .logo {

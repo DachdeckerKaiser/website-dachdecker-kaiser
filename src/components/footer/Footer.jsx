@@ -18,7 +18,7 @@ function Footer() {
                     </p>
                 </div>
                 <div className="col col3">
-                    <a href="#impressum" className="impressumLink">Impressum</a>
+                    <a href="/impressum" className="impressumLink">Impressum</a>
                 </div>
             </div>
             <div className="footerBottom">
