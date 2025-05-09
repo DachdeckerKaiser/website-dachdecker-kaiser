@@ -1,0 +1,46 @@
+.impressumMainContent {
+    width: 100%;
+    height: 100vh !important;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.impressumTitle {
+    font-family: "Cal Sans", sans-serif;
+    font-size: 3em;
+    color: white;
+}
+
+.headline {
+    font-family: "Cal Sans", sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+.impressumSubTitle {
+    margin-top: 1rem !important;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.impressumDescription {
+    margin-top: 2rem;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+
+.backButton {
+    margin-top: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    gap: .5rem;
+    font-family: "Montserrat", sans-serif;
+}   
