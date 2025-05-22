@@ -1,8 +1,8 @@
-import "../../node_modules/animate.css/animate.min.css"
-import qrcode from "../qrcode_calendly.png"
+import "../../../node_modules/animate.css/animate.min.css";
+import qrcode from "../../assets/qrcode_calendly.png";
 import './home.css';
-import Header from '../components/header/Header';
-import Footer from '../components/footer/Footer';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 
 
 
